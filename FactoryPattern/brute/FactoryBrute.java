@@ -8,12 +8,12 @@ public class FactoryBrute {
         if(vehicleType.equals("car")){
             Car car = new Car();
             car.start();
-            System.out.println(car.getVehicleName());
+            System.out.println("Vehicle name is " + car.getVehicleName());
         }
         else if(vehicleType.equals("bike")){
             Bike bike = new Bike();
             bike.start();
-            System.out.println(bike.getVehicleName());
+            System.out.println("Vehicle name is " + bike.getVehicleName());
         }
         else if(vehicleType.equals("truck")){
             Truck truck = new Truck();
